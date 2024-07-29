@@ -1,0 +1,14 @@
+*~
+*.o
+*.lst
+*.img
+*.exe
+*.log
+boot_kern.bin
+map.txt
+daisy-os*.gb
+daisy-os*.sav
+
+rootfs*
+
+binjgb
