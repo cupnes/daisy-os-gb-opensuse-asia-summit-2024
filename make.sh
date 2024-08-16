@@ -208,10 +208,8 @@ make_fs_rom_workdir_and_put_files() {
 
 	# ファイルシステムへ格納するファイルを配置
 	local image_name_head
-	## レトロゲーム勉強会#07のスライド
-	# image_name_head='retrogstudy_07_yohgami'
-	## レトロクリエイターズ2023のスライド
-	image_name_head='retrocreators_2023_yohgami'
+	## openSUSE.Asia Summit 2024のスライド
+	image_name_head='opensuse_asia_summit_2024_yohgami'
 
 	for img_path in $(ls files_img/${image_name_head}_gb_??.img); do
 		n=$(echo $img_path | rev | cut -d'.' -f2 | cut -d'_' -f1 | rev)
