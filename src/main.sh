@@ -114,28 +114,28 @@ const_data() {
 	# 　 - サイズ  : $sz_const_<定数名>
 	cat <<EOF >src/const_data.str.tsv
 pref_hex	0X
-surface_temp_str_title	ちひようおんと゛:
+surface_temp_str_title	SURF TEMP:
 surface_temp_str_unit_and_btn	゜C▲▼
-title_str_daisy	て゛いし゛-
-title_str_world	わ-ると゛
-title_str_demo	て゛も
+title_str_daisy	DAISY
+title_str_world	WORLD
+title_str_demo	DEMO
 ver_str_daisy	DAISY
 ver_str_os	OS GB
 ver_str_ver	V0.4.0
-daisy_desc_str_white	🌼しろのて゛いし゛-:0.1゜Cほうねつ
-daisy_desc_str_black	🌻くろのて゛いし゛-:0.1゜Cちくねつ
-predator_desc_str	👄ほしよくしや:て゛いし゛-をたへ゛る
-operation_str_title	そうさせつめい
-operation_str_dir	+し゛き-:か-そるいと゛う
-operation_str_a	Aほ゛たん:▲▼ほ゛たんそうさ
-operation_str_b_1	Bほ゛たん:していしたせいふ゛つを
-operation_str_b_2	まひ゛く(しようきよ)
-cell_status_str_flags	ふらく゛:
-cell_status_str_coord	さ゛ひよう:
-cell_status_str_life_left_duration	よめい/し゛ゆみよう:
-cell_status_str_fitness	てきおうと゛:
-cell_status_str_bin_data_size	は゛いなり:(さいす゛:
-cell_status_str_collected_flags	しゆとくふらく゛:
+daisy_desc_str_white	🌼WHITE DAISY: -0.1゜C
+daisy_desc_str_black	🌻BLACK DAISY: +0.1゜C
+predator_desc_str	👄PREDATOR   : EAT 🌼🌻
+operation_str_title	HOW TO PLAY
+operation_str_dir	D-PAD  :MOVE CURSOR
+operation_str_a	A BUTTON:OPERATE ▲▼
+operation_str_b_1	B BUTTON:THIN OUT
+operation_str_b_2	(ERASE) DAISY
+cell_status_str_flags	FLAGS:
+cell_status_str_coord	COORD:
+cell_status_str_life_left_duration	LEFT/DURAT:
+cell_status_str_fitness	FITNESS:
+cell_status_str_bin_data_size	BINARY:(SIZE:
+cell_status_str_collected_flags	COLLECTED FLAGS:
 select_cell_eval	ひようかかんすうせんたく
 cell_eval_daisyworld	て゛いし゛-わ-ると゛
 cell_eval_fixedval	こていち
